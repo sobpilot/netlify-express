@@ -15,7 +15,7 @@ router.post('/', (req, res) => res.json({ postBody: req.body }));
 
 router.get('/hello', (req, res) => {
   res.json(new { data: 'json response' });
-  res.json(req);
+  //res.json(req);
   res.end();
 })
 
